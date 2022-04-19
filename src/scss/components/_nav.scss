@@ -1,0 +1,47 @@
+.nav {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 32px;
+    }
+  }
+
+  &__link {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--dark-color);
+  }
+
+  &__btn {}
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+
+  &__text {
+    margin-right: 8px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--dark-color);
+  }
+
+  &__icon {
+    width: 16px;
+    height: 16px;
+    fill: none;
+    stroke: var(--text-color);
+  }
+}
+
+.dropdown {
+  display: none;
+}

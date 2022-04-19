@@ -6,8 +6,14 @@
 
 // подключения компонентов страницы
 // малые
+@import "./components/callback-btn";
+@import "./components/phone";
+@import "./components/favorites";
+@import "./components/cart";
+@import "./components/nav";
 
 // большие
 @import "./components/header";
 @import "./components/promo";
+@import "./components/hero";
 @import "./components/footer";

@@ -1,0 +1,13 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fafafa;
+
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+}

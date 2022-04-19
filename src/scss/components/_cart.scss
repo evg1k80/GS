@@ -1,0 +1,15 @@
+.cart {
+  &__btn {
+    width: 32px;
+    height: 32px;
+
+    svg {
+      width: 100%;
+      height: 100%;
+      fill: none;
+      stroke: var(--text-color);
+      stroke-width: 2px;
+      object-fit: cover;
+    }
+  }
+}
