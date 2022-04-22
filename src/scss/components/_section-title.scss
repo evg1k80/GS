@@ -1,0 +1,12 @@
+.section-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 141%;
+  color: var(--dark-color);
+
+  @include mobile {
+    font-size: 22px;
+    line-height: 155%;
+  }
+}

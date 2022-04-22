@@ -1,0 +1,17 @@
+.price {
+  &__current {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--dark-color);
+  }
+
+  &__old {
+    margin-left: 12px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 117%;
+    text-decoration: line-through;
+    color: var(--text-color);
+  }
+}
